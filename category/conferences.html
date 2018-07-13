@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+        <title>Rob's blog - Conferences</title>
         <meta charset="utf-8" />
-        <title>A Pelican Blog - Conferences</title>
-        <link rel="stylesheet" href="/theme/css/main.css" />
-        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Atom Feed" />
+        <link rel="stylesheet" href="/theme/css/main.css" type="text/css" />
+        <link href="/" type="application/atom+xml" rel="alternate" title="Rob's blog ATOM Feed" />
+
 
         <!--[if IE]>
-            <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie.css"/>
+                <script src="/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="/css/ie6.css"/><![endif]-->
+
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">A Pelican Blog </a></h1>
+                <h1><a href="/index.html">Rob's blog </a></h1>
                 <nav><ul>
-                    <li class="active"><a href="/category/conferences.html">Conferences</a></li>
-                    <li><a href="/category/research.html">Research</a></li>
+                <li><a href="/archives">Archives</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="/notes-from-pydata-london-2018.html">Notes from PyData London 2018</a></h1>
+     <section id="content" class="body">
+        <aside id="featured"><article>
+                <h1 class="entry-title"><a href="/notes-from-pydata-london-2018.html">Notes from PyData London 2018</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2018-04-27T18:00:00+00:00">
-                Published: Fri 27 April 2018
+        <abbr class="published" title="2018-04-27T18:00:00+01:00">
+                Fri 27 April 2018
         </abbr>
 
-<p>In <a href="/category/conferences.html">Conferences</a>.</p>
-
-</footer><!-- /.post-info --><h1>PyData London 2018</h1>
+        <address class="vcard author">
+                By <a class="url fn" href="/author/rob-spaul.html">Rob Spaul</a>
+        </address>
+<p>In <a href="/category/conferences.html">Conferences</a>. </p>
+</p></footer><!-- /.post-info --><!-- /.post-info -->
+                <h1>PyData London 2018</h1>
 <p><img 
     src="images/t-shirt.jpg" alt="t-shirt">
 <img 
@@ -204,25 +214,37 @@ Used TensorBoard to visualise the NN.</p>
 <p>Missed this one but attendees said the talk was very good.</p>
 <p>http://gael-varoquaux.info/interpreting_ml_tuto/</p>
 <p>https://github.com/GaelVaroquaux/interpreting_ml_tuto</p>
-<h3>Demystifying pandas internals</h3>                </article>
-            </aside><!-- /#featured -->
-        <section id="extras" class="body">
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
+<h3>Demystifying pandas internals</h3>
+        </article></aside><!-- /#featured -->
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
 
+        <aside id="sidebar">
+                <div class="widget">
+                        <h2>Categories</h2>
+                        <ul>
+                           <li class="active"><a href="/category/conferences.html">Conferences</a></li>
+                           <li ><a href="/category/research.html">Research</a></li>
+                        </ul>
+                </div>
+                <div class="widget social">
+                        <h2>Social</h2>
+                        <ul>
+                            <li><a href="/False" rel="alternate">atom feed</a></li>
+
+                            <li><a href="https://twitter.com/robbie_sp">Twitter</a></li>
+                            <li><a href="https://github.com/robbie-sp">GitHub</a></li>
                         </ul>
                 </div><!-- /.social -->
-        </section><!-- /#extras -->
+        </aside><!-- /#sidebar -->
 
-        <footer id="contentinfo" class="body">
+        <footer id="footer" class="body">
                 <address id="about" class="vcard body">
-                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>, which takes great advantages of <a href="http://python.org">python</a>.
                 </address><!-- /#about -->
 
-                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
-        </footer><!-- /#contentinfo -->
+                <p>The theme is «notmyidea-cms», a modified version of «notmyidea», the default theme.</p>
+        </footer><!-- /#footer -->
 
 </body>
 </html>
